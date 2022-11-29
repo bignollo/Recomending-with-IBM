@@ -13151,7 +13151,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13181,7 +13181,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -13253,7 +13253,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show df_content to get an idea of the data</span>
@@ -13270,7 +13270,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -13363,7 +13363,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;email&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -13379,7 +13379,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -13404,7 +13404,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;email&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">bins</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
@@ -13443,7 +13443,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fill in the median and maximum number of user_article interactios below</span>
@@ -13467,7 +13467,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Find and explore duplicate articles</span>
@@ -13484,7 +13484,7 @@ Name: email, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -13568,7 +13568,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove any rows that have the same article_id - only keep the first</span>
@@ -13594,7 +13594,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
@@ -13631,13 +13631,13 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_articles</span> <span class="o">=</span> <span class="mi">714</span><span class="c1"># The number of unique articles that have at least one interaction</span>
-<span class="n">total_articles</span> <span class="o">=</span> <span class="mi">1051</span> <span class="c1"># The number of unique articles on the IBM platform</span>
-<span class="n">unique_users</span> <span class="o">=</span> <span class="mi">5148</span> <span class="c1"># The number of unique users</span>
-<span class="n">user_article_interactions</span> <span class="o">=</span> <span class="mi">45993</span><span class="c1"># The number of user-article interactions</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_articles</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span><span class="c1"># The number of unique articles that have at least one interaction</span>
+<span class="n">total_articles</span> <span class="o">=</span> <span class="n">df_content</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="c1"># The number of unique articles on the IBM platform</span>
+<span class="n">unique_users</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;email&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="c1"># The number of unique users</span>
+<span class="n">user_article_interactions</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># The number of user-article interactions</span>
 </pre></div>
 
     </div>
@@ -13655,7 +13655,7 @@ Name: email, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -13671,7 +13671,7 @@ Name: email, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -13689,7 +13689,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_viewed_article_id</span> <span class="o">=</span> <span class="s1">&#39;1429.0&#39;</span> <span class="c1"># The most viewed article in the dataset as a string with one value following the decimal </span>
@@ -13703,7 +13703,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## No need to change the code here - this will be helpful for later parts of the notebook</span>
@@ -13740,7 +13740,7 @@ Name: article_id, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[38]:</div>
 
 
 
@@ -13812,7 +13812,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## If you stored all your results in the variable names above, </span>
@@ -13867,7 +13867,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_articles</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -13913,7 +13913,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">get_top_articles</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
@@ -13946,7 +13946,7 @@ Name: article_id, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function by returning the top 5, 10, and 20 articles</span>
@@ -14006,7 +14006,7 @@ Your top_20 looks like the solution list! Nice job.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create the user-article matrix with 1&#39;s and 0&#39;s</span>
@@ -14038,7 +14038,7 @@ Your top_20 looks like the solution list! Nice job.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Tests: You should just need to run this cell.  Don&#39;t change the code.</span>
@@ -14082,7 +14082,7 @@ Your top_20 looks like the solution list! Nice job.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_similar_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -14121,7 +14121,7 @@ Your top_20 looks like the solution list! Nice job.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Do a spot check of your function</span>
@@ -14165,7 +14165,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_article_names</span><span class="p">(</span><span class="n">article_ids</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -14256,7 +14256,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check Results</span>
@@ -14273,130 +14273,130 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[48]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;automating web analytics through python&#39;,
- &#39;i am not a data scientist – ibm watson data lab&#39;,
- &#39;deep learning from scratch i: computational graphs&#39;,
- &#39;working with db2 warehouse on cloud in data science experience&#39;,
- &#39;leverage python, scikit, and text classification for behavioral profiling&#39;,
- &#39;car performance data&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;this week in data science (february 14, 2017)&#39;,
- &#39;the unit commitment problem&#39;,
- &#39;from spark ml model to online scoring with scala&#39;,
- &#39;small steps to tensorflow&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;data science platforms are on the rise and ibm is leading the way&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;why even a moth’s brain is smarter than an ai&#39;,
- &#39;this week in data science (april 18, 2017)&#39;,
- &#39;56594    lifelong (machine) learning: how automation ca...\nName: title, dtype: object&#39;,
- &#39;airbnb data for analytics: mallorca reviews&#39;,
- &#39;this week in data science (april 25, 2017)&#39;,
- &#39;using bigdl in dsx for deep learning on spark&#39;,
- &#39;pixieapp for outlier detection&#39;,
- &#39;brunel interactive visualizations in jupyter notebooks&#39;,
- &#39;deploy your python model as a restful api&#39;,
- &#39;timeseries data analysis of iot events by using jupyter notebook&#39;,
- &#39;the nurse assignment problem&#39;,
- &#39;get started with streams designer by following this roadmap&#39;,
- &#39;gosales transactions for logistic regression model&#39;,
- &#39;got zip code data? prep it for analytics. – ibm watson data lab – medium&#39;,
- &#39;analyze energy consumption in buildings&#39;,
- &#39;a dynamic duo – inside machine learning – medium&#39;,
- &#39;54174    detect potentially malfunctioning sensors in r...\nName: title, dtype: object&#39;,
- &#39;experience iot with coursera&#39;,
- &#39;520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object&#39;,
- &#39;what is smote in an imbalanced class setting (e.g. fraud detection)?&#39;,
- &#39;using deep learning with keras to predict customer churn&#39;,
- &#39;recommender systems: approaches &amp; algorithms&#39;,
- &#39;analyze facebook data using ibm watson and watson studio&#39;,
- &#39;analyze open data sets with pandas dataframes&#39;,
- &#39;web picks (week of 4 september 2017)&#39;,
- &#39;optimizing a marketing campaign: moving from predictions to actions&#39;,
- &#39;a tensorflow regression model to predict house values&#39;,
- &#39;machine learning for the enterprise&#39;,
- &#39;flightpredict ii: the sequel  – ibm watson data lab&#39;,
- &#39;using brunel in ipython/jupyter notebooks&#39;,
+<pre>[&#39;using rstudio in ibm data science experience&#39;,
  &#39;model bike sharing data with spss&#39;,
- &#39;this week in data science (may 2, 2017)&#39;,
- &#39;using rstudio in ibm data science experience&#39;,
- &#39;shaping data with ibm data refinery&#39;,
- &#39;healthcare python streaming application demo&#39;,
+ &#39;this week in data science (may 30, 2017)&#39;,
+ &#39;machine learning for the enterprise&#39;,
+ &#39;visualising data the node.js way&#39;,
+ &#39;the 3 kinds of context: machine learning and the art of the frame&#39;,
+ &#39;data science for real-time streaming analytics&#39;,
+ &#39;timeseries data analysis of iot events by using jupyter notebook&#39;,
+ &#39;56594    lifelong (machine) learning: how automation ca...\nName: title, dtype: object&#39;,
+ &#39;working with db2 warehouse on cloud in data science experience&#39;,
+ &#39;54174    detect potentially malfunctioning sensors in r...\nName: title, dtype: object&#39;,
+ &#39;better together: spss and data science experience&#39;,
+ &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;apache spark lab, part 2: querying data&#39;,
+ &#39;this week in data science (february 14, 2017)&#39;,
+ &#39;machine learning exercises in python, part 1&#39;,
+ &#39;movie recommender system with spark machine learning&#39;,
+ &#39;easy json loading and social sharing in dsx notebooks&#39;,
+ &#39;what is smote in an imbalanced class setting (e.g. fraud detection)?&#39;,
+ &#39;predicting churn with the spss random tree algorithm&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;ml optimization using cognitive assistant&#39;,
+ &#39;analyze precipitation data&#39;,
+ &#39;deep learning achievements over the past year &#39;,
+ &#39;optimizing a marketing campaign: moving from predictions to actions&#39;,
+ &#39;modeling energy usage in new york city&#39;,
+ &#39;502    forgetting the past to learn the future: long ...\nName: title, dtype: object&#39;,
+ &#39;use decision optimization to schedule league games&#39;,
+ &#39;this week in data science (april 18, 2017)&#39;,
+ &#39;gosales transactions for logistic regression model&#39;,
+ &#39;car performance data&#39;,
+ &#39;i am not a data scientist – ibm watson data lab&#39;,
+ &#39;aspiring data scientists! start to learn statistics with these 6 books!&#39;,
+ &#39;higher-order logistic regression for large datasets&#39;,
+ &#39;the unit commitment problem&#39;,
+ &#39;brunel in jupyter&#39;,
  &#39;visualize data with the matplotlib library&#39;,
- &#39;python machine learning: scikit-learn tutorial&#39;,
- &#39;pixiedust 1.0 is here! – ibm watson data lab&#39;,
+ &#39;leverage python, scikit, and text classification for behavioral profiling&#39;,
+ &#39;brunel interactive visualizations in jupyter notebooks&#39;,
+ &#39;awesome deep learning papers&#39;,
+ &#39;declarative machine learning&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;apache spark lab, part 3: machine learning&#39;,
+ &#39;the nurse assignment problem&#39;,
+ &#39;deep learning from scratch i: computational graphs&#39;,
+ &#39;got zip code data? prep it for analytics. – ibm watson data lab – medium&#39;,
+ &#39;why even a moth’s brain is smarter than an ai&#39;,
+ &#39;pixiedust gets its first community-driven feature in 1.0.4&#39;,
+ &#39;data science platforms are on the rise and ibm is leading the way&#39;,
+ &#39;ml algorithm != learning machine&#39;,
+ &#39;discover hidden facebook usage insights&#39;,
+ &#39;small steps to tensorflow&#39;,
+ &#39;deep forest: towards an alternative to deep neural networks&#39;,
+ &#39;deploy your python model as a restful api&#39;,
+ &#39;data visualization playbook: telling the data story&#39;,
+ &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;dsx: hybrid mode&#39;,
+ &#39;generalization in deep learning&#39;,
  &#39;build a python app on the streaming analytics service&#39;,
- &#39;markdown for jupyter notebooks cheatsheet&#39;,
+ &#39;fertility rate by country in total births per woman&#39;,
+ &#39;graph-based machine learning&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;this week in data science (may 2, 2017)&#39;,
  &#39;recent trends in recommender systems&#39;,
  &#39;analyzing data by using the sparkling.data library features&#39;,
- &#39;machine learning exercises in python, part 1&#39;,
- &#39;brunel 2.0 preview&#39;,
  &#39;times world university ranking analysis&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;analyze accident reports on amazon emr spark&#39;,
- &#39;perform sentiment analysis with lstms, using tensorflow&#39;,
- &#39;get social with your notebooks in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;1448    i ranked every intro to data science course on...\nName: title, dtype: object&#39;,
- &#39;the 3 kinds of context: machine learning and the art of the frame&#39;,
- &#39;higher-order logistic regression for large datasets&#39;,
- &#39;apache spark lab, part 3: machine learning&#39;,
- &#39;process events from the watson iot platform in a streams python application&#39;,
- &#39;easy json loading and social sharing in dsx notebooks&#39;,
- &#39;data science for real-time streaming analytics&#39;,
- &#39;analyze open data sets with spark &amp; pixiedust&#39;,
- &#39;data tidying in data science experience&#39;,
- &#39;generalization in deep learning&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;improving real-time object detection with yolo&#39;,
- &#39;learn tensorflow and deep learning together and now!&#39;,
- &#39;challenges in deep learning&#39;,
- &#39;this week in data science (may 30, 2017)&#39;,
+ &#39;using deep learning with keras to predict customer churn&#39;,
+ &#39;brunel 2.0 preview&#39;,
  &#39;from scikit-learn model to cloud with wml client&#39;,
- &#39;deep learning achievements over the past year &#39;,
- &#39;overlapping co-cluster recommendation algorithm (ocular)&#39;,
- &#39;aspiring data scientists! start to learn statistics with these 6 books!&#39;,
- &#39;declarative machine learning&#39;,
- &#39;variational auto-encoder for &#34;frey faces&#34; using keras&#39;,
- &#39;airbnb data for analytics: vancouver listings&#39;,
- &#39;machine learning and the science of choosing&#39;,
- &#39;ml algorithm != learning machine&#39;,
- &#39;ml optimization using cognitive assistant&#39;,
- &#39;discover hidden facebook usage insights&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;apache spark lab, part 2: querying data&#39;,
- &#39;fertility rate by country in total births per woman&#39;,
- &#39;insights from new york car accident reports&#39;,
- &#39;simple graphing with ipython and\xa0pandas&#39;,
- &#39;maximize oil company profits&#39;,
- &#39;data visualization playbook: telling the data story&#39;,
- &#39;analyze precipitation data&#39;,
- &#39;accelerate your workflow with dsx&#39;,
- &#39;programmatic evaluation using watson conversation&#39;,
- &#39;dsx: hybrid mode&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;this week in data science (april 25, 2017)&#39;,
+ &#39;spark 2.1 and job monitoring available in dsx&#39;,
  &#39;deep learning with data science experience&#39;,
- &#39;deep forest: towards an alternative to deep neural networks&#39;,
- &#39;brunel in jupyter&#39;,
- &#39;predicting churn with the spss random tree algorithm&#39;,
- &#39;visualising data the node.js way&#39;,
- &#39;better together: spss and data science experience&#39;,
- &#39;502    forgetting the past to learn the future: long ...\nName: title, dtype: object&#39;,
- &#39;modeling energy usage in new york city&#39;,
+ &#39;analyze facebook data using ibm watson and watson studio&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;programmatic evaluation using watson conversation&#39;,
+ &#39;data tidying in data science experience&#39;,
+ &#39;pixiedust 1.0 is here! – ibm watson data lab&#39;,
+ &#39;analyze open data sets with pandas dataframes&#39;,
+ &#39;experience iot with coursera&#39;,
+ &#39;challenges in deep learning&#39;,
+ &#39;automating web analytics through python&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;using github for project control in dsx&#39;,
- &#39;use sql with data in hadoop python&#39;,
- &#39;graph-based machine learning&#39;,
+ &#39;learn tensorflow and deep learning together and now!&#39;,
+ &#39;shaping data with ibm data refinery&#39;,
+ &#39;pixieapp for outlier detection&#39;,
+ &#39;using bigdl in dsx for deep learning on spark&#39;,
+ &#39;airbnb data for analytics: mallorca reviews&#39;,
+ &#39;python machine learning: scikit-learn tutorial&#39;,
+ &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
+ &#39;a tensorflow regression model to predict house values&#39;,
+ &#39;get social with your notebooks in dsx&#39;,
+ &#39;machine learning and the science of choosing&#39;,
+ &#39;simple graphing with ipython and\xa0pandas&#39;,
  &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;pixiedust gets its first community-driven feature in 1.0.4&#39;,
- &#39;movie recommender system with spark machine learning&#39;,
- &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;]</pre>
+ &#39;flightpredict ii: the sequel  – ibm watson data lab&#39;,
+ &#39;using brunel in ipython/jupyter notebooks&#39;,
+ &#39;insights from new york car accident reports&#39;,
+ &#39;a dynamic duo – inside machine learning – medium&#39;,
+ &#39;recommender systems: approaches &amp; algorithms&#39;,
+ &#39;1448    i ranked every intro to data science course on...\nName: title, dtype: object&#39;,
+ &#39;overlapping co-cluster recommendation algorithm (ocular)&#39;,
+ &#39;analyze open data sets with spark &amp; pixiedust&#39;,
+ &#39;from spark ml model to online scoring with scala&#39;,
+ &#39;web picks (week of 4 september 2017)&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;variational auto-encoder for &#34;frey faces&#34; using keras&#39;,
+ &#39;perform sentiment analysis with lstms, using tensorflow&#39;,
+ &#39;maximize oil company profits&#39;,
+ &#39;improving real-time object detection with yolo&#39;,
+ &#39;520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object&#39;,
+ &#39;analyze accident reports on amazon emr spark&#39;,
+ &#39;markdown for jupyter notebooks cheatsheet&#39;,
+ &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
+ &#39;airbnb data for analytics: vancouver listings&#39;,
+ &#39;get started with streams designer by following this roadmap&#39;,
+ &#39;process events from the watson iot platform in a streams python application&#39;,
+ &#39;accelerate your workflow with dsx&#39;]</pre>
 </div>
 
 </div>
@@ -14407,7 +14407,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your functions here - No need to change this code - just run this cell</span>
@@ -14459,7 +14459,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_sorted_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -14540,7 +14540,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Quick spot check - don&#39;t change this code - just use it to test your functions</span>
@@ -14567,10 +14567,10 @@ The 3 most similar users to user 46 are: Int64Index([4201, 23, 3782], dtype=&#39
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>The top 10 recommendations for user 20 are the following article ids:
-[&#39;232.0&#39;, &#39;793.0&#39;, &#39;495.0&#39;, &#39;53.0&#39;, &#39;1271.0&#39;, &#39;727.0&#39;, &#39;981.0&#39;, &#39;1186.0&#39;, &#39;1053.0&#39;, &#39;89.0&#39;]
+[&#39;53.0&#39;, &#39;89.0&#39;, &#39;1053.0&#39;, &#39;793.0&#39;, &#39;981.0&#39;, &#39;495.0&#39;, &#39;1186.0&#39;, &#39;232.0&#39;, &#39;1271.0&#39;, &#39;727.0&#39;]
 
 The top 10 recommendations for user 20 are the following article names:
-[&#39;connect to db2 warehouse on cloud and db2 using scala&#39;, &#39;top 10 machine learning algorithms for beginners&#39;, &#39;top 20 r machine learning and data science packages&#39;, &#39;10 powerful features on watson data platform, no coding necessary&#39;, &#39;self-service data preparation with ibm data refinery&#39;, &#39;access mysql with python&#39;, &#39;from python nested lists to multidimensional numpy arrays&#39;, &#39;introducing streams designer&#39;, &#39;customer demographics and sales&#39;, &#39;super fast string matching in python&#39;]
+[&#39;top 20 r machine learning and data science packages&#39;, &#39;super fast string matching in python&#39;, &#39;introducing streams designer&#39;, &#39;from python nested lists to multidimensional numpy arrays&#39;, &#39;customer demographics and sales&#39;, &#39;connect to db2 warehouse on cloud and db2 using scala&#39;, &#39;10 powerful features on watson data platform, no coding necessary&#39;, &#39;top 10 machine learning algorithms for beginners&#39;, &#39;self-service data preparation with ibm data refinery&#39;, &#39;access mysql with python&#39;]
 </pre>
 </div>
 </div>
@@ -14589,7 +14589,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">get_top_sorted_users</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -14628,13 +14628,13 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Tests with a dictionary of results</span>
 
-<span class="n">user1_most_sim</span> <span class="o">=</span> <span class="mi">3933</span> <span class="c1"># Find the user that is most similar to user 1 </span>
-<span class="n">user131_10th_sim</span> <span class="o">=</span> <span class="mi">242</span><span class="c1"># Find the 10th most similar user to user 131</span>
+<span class="n">user1_most_sim</span> <span class="o">=</span> <span class="n">get_top_sorted_users</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># Find the user that is most similar to user 1 </span>
+<span class="n">user131_10th_sim</span> <span class="o">=</span> <span class="n">get_top_sorted_users</span><span class="p">(</span><span class="mi">131</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">9</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="c1"># Find the 10th most similar user to user 131</span>
 </pre></div>
 
     </div>
@@ -14644,7 +14644,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Dictionary Test Here</span>
@@ -14706,7 +14706,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_user</span> <span class="o">=</span> <span class="s1">&#39;0.0&#39;</span>
@@ -14723,7 +14723,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">new_user_recs</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">([</span><span class="s1">&#39;1314.0&#39;</span><span class="p">,</span><span class="s1">&#39;1429.0&#39;</span><span class="p">,</span><span class="s1">&#39;1293.0&#39;</span><span class="p">,</span><span class="s1">&#39;1427.0&#39;</span><span class="p">,</span><span class="s1">&#39;1162.0&#39;</span><span class="p">,</span><span class="s1">&#39;1364.0&#39;</span><span class="p">,</span><span class="s1">&#39;1304.0&#39;</span><span class="p">,</span><span class="s1">&#39;1170.0&#39;</span><span class="p">,</span><span class="s1">&#39;1431.0&#39;</span><span class="p">,</span><span class="s1">&#39;1330.0&#39;</span><span class="p">]),</span> <span class="s2">&quot;Oops!  It makes sense that in this case we would want to recommend the most popular articles, because we don&#39;t know anything about these users.&quot;</span>
@@ -14833,7 +14833,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load the matrix here</span>
@@ -14847,7 +14847,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># quick look at the matrix</span>
@@ -14864,7 +14864,7 @@ Name: 240, dtype: int64
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[36]:</div>
+    <div class="prompt output_prompt">Out[67]:</div>
 
 
 
@@ -15077,7 +15077,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Perform SVD on the User-Item Matrix Here</span>
@@ -15093,7 +15093,7 @@ Name: 240, dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Provide your response here.</strong></p>
+<p>Traditional SVD can be used on this case since there is no NaN, just 1 and 0, compared to the lesson where we did have NaN, so we needed to use FunkSVD to handle that.</p>
 
 </div>
 </div>
@@ -15108,7 +15108,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_latent_feats</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">700</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
@@ -15179,7 +15179,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_train</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">40000</span><span class="p">)</span>
@@ -15220,7 +15220,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">intersect1d</span><span class="p">(</span><span class="n">df_train</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">(),</span><span class="n">df_test</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())))</span>
@@ -15257,14 +15257,14 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Replace the values in the dictionary below</span>
-<span class="n">a</span> <span class="o">=</span> <span class="mi">662</span> 
-<span class="n">b</span> <span class="o">=</span> <span class="mi">574</span> 
-<span class="n">c</span> <span class="o">=</span> <span class="mi">20</span> 
-<span class="n">d</span> <span class="o">=</span> <span class="mi">0</span> 
+<span class="n">a</span> <span class="o">=</span> <span class="mi">662</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">574</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">d</span> <span class="o">=</span> <span class="mi">0</span>
 
 
 <span class="n">sol_4_dict</span> <span class="o">=</span> <span class="p">{</span>
@@ -15311,7 +15311,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># fit SVD on the user_item_train matrix</span>
@@ -15325,7 +15325,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Use these cells to see how well you can use the training </span>
@@ -15349,7 +15349,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">u_train</span><span class="p">,</span> <span class="n">s_train</span><span class="p">,</span> <span class="n">vt_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">svd</span><span class="p">(</span><span class="n">user_item_train</span><span class="p">)</span>
@@ -15364,7 +15364,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">latent_feats</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">570</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
@@ -15396,7 +15396,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Plot test accuracy and latent features</span>
@@ -15470,7 +15470,7 @@ Name: 240, dtype: int64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">call</span>
@@ -15487,7 +15487,7 @@ Name: 240, dtype: int64
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[57]:</div>
+    <div class="prompt output_prompt">Out[78]:</div>
 
 
 
